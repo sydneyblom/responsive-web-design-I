@@ -215,21 +215,24 @@ hr {
 /*****************Tablet**************/
 
 @media(max-width: 800px) {
-	.topheader {
-		width: 95%;
+	.topheader{
 		display:flex;
-		justify-content: space-around;
+		justify-content: center;
 		align-items: center;
+		flex-direction: column-reverse;
 	}
 
-	nav a{
-		font-size: 12px;
-		justify-content: space-around;
-		text-decoration:none;
-		color:grey;
-	
-	}
+.logowrap {
+	width: 100%;
+	display: flex;
+	justify-content:center;
 
+}
+
+.logo {
+padding: 1% 0 10% 0;
+
+}
 
 	.codeimg {	
 		display: none;
@@ -245,7 +248,7 @@ hr {
 		  }
 	
 	.tagbutton {
-		width:59%;
+		width:69%;
 		display:flex;
 		align-items: center;
 		flex-direction: column;
